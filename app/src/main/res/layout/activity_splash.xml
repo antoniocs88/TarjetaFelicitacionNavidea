@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
+        android:id="@+id/circularFillableLoaders"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/myavatar"
+        app:cfl_border="true"
+        app:cfl_border_width="9dp"
+        app:cfl_progress="80"
+        app:cfl_wave_amplitude="0.06"
+        app:cfl_wave_color="@color/rojo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:id="@+id/cargando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        app:srcCompat="@drawable/cargando" />
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cargando"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-39dp"
+        android:layout_marginBottom="147dp"
+        android:text="Cargando . . . "
+        android:textAlignment="center"
+        android:textColor="@color/rojo"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        app:srcCompat="@drawable/navidad2"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tituloabajo2"
+        android:layout_width="381dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="casual"
+        android:text="@string/de_antonio"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tituloabajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="58dp"
+        android:fontFamily="casual"
+        android:text="@string/de_parte"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tituloarriba"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="9dp"
+        android:fontFamily="casual"
+        android:text="@string/Feliz_navidad"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
